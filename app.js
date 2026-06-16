@@ -58,3 +58,17 @@ var x = 10;
 var y = 20;
 var z = x < 3 || y < 10 || y != 10;
 console.log(z);
+//casting
+var x = "10";
+var y = "20";
+//console.log(Number(x)+y);//error number+string
+console.log(Number(x) + Number(y));
+//conditions
+var age = 18;
+if (age > 18) {
+  console.log("age is greater than 18");
+} else if (age == 18) {
+  console.log("age is equal to 18");
+} else {
+  console.log("age is less than 18");
+}
