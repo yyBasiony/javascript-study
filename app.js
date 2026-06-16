@@ -21,6 +21,7 @@ console.log("Multiplication is" + mult);
 console.log("Division is" + div);
 console.log("Modulus is" + mod);
 //string
+//------------------------------------------
 var y = "yasmine";
 console.log(y);
 var z = `my name is ${y}`;
@@ -32,7 +33,28 @@ console.log(y.toLowerCase());
 console.log(y.replace("i", "ee"));
 var myChar = y.charAt(3);
 console.log(myChar);
+//task
 var myStr = "hello world";
 console.log(myStr.toUpperCase());
 console.log(myStr.replace("o", "y"));
 console.log(myStr.split("").reverse().join(" "));
+//-------------------------------------------------
+//numbers
+var a = 10;
+var b = 3;
+var sum = a + b;
+var sub = a - b;
+console.log(sum);
+console.log(sub);
+Math.max(a, b);
+//-----------------------
+//Boolean
+var x = 10;
+var y = 20;
+console.log(x > y);
+console.log(typeof x);
+//logical operators
+var x = 10;
+var y = 20;
+var z = x < 3 || y < 10 || y != 10;
+console.log(z);
