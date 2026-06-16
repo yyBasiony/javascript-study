@@ -20,3 +20,13 @@ console.log("Subtraction is" + sub);
 console.log("Multiplication is" + mult);
 console.log("Division is" + div);
 console.log("Modulus is" + mod);
+//string
+var y = "yasmine";
+console.log(y);
+var z = `my name is ${y}`;
+console.log(z);
+console.log(y.substring(0, 3));
+console.log(y.length);
+console.log(y.toUpperCase());
+console.log(y.toLowerCase());
+console.log(y.replace("i", "ee"));
