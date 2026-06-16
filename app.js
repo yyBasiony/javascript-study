@@ -72,3 +72,27 @@ if (age > 18) {
 } else {
   console.log("age is less than 18");
 }
+//swithch
+var health = "good";
+switch (health) {
+  case "good":
+    console.log("health is good");
+    break;
+  case "bad":
+    console.log("health is bad");
+    break;
+  default:
+    console.log("health is unknown");
+}
+//array
+//-----------------------------
+var brothersAndSisters = ["yasmine", "naira", "shams", "mai", "tamara"];
+console.log(brothersAndSisters);
+console.log(brothersAndSisters[0]);
+console.log(brothersAndSisters.length);
+brothersAndSisters.push("ali");
+console.log(brothersAndSisters);
+brothersAndSisters.push("moaze");
+console.log(brothersAndSisters);
+brothersAndSisters.pop();
+console.log(brothersAndSisters);
